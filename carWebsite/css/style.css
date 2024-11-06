@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* NAVBAR */
+#home {
+  background: url(../img/4x3_1970_mustang_.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header .header-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.header .navbar .menu-links ul {
+  display: flex;
+  gap: 2rem;
+}
+.title {
+  font-size: 25px;
+  color: rgb(21, 126, 0);
+  font-family: "Rubik Wet Paint", system-ui;
+}
+.title span {
+  color: white;
+}
+.header .menu-links ul li a {
+  color: #fff;
+  transition: 0.3s;
+}
+.header .menu-links ul li a:hover {
+  color: rgb(21, 126, 0);
+}
+.menu-icons i {
+  color: #fff;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+/* CARD */
+.card-child {
+  background: black;
+  padding: 3rem 0;
+}
+.card-child .logo {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+.card-child .card {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 2rem;
+  margin: 5rem 0;
+}
+.card-child .card .box-1 {
+  width: 300px;
+  color: #fff;
+}
+.box-1 h2 {
+  margin: 1rem 0;
+}
+.box-1 p {
+  margin: 1rem 0;
+}
+box-1 i {
+  background: #fff;
+  color: #fff;
+}
+.box-1 .btn {
+  background: #f17c0e;
+  color: #000;
+  border: none;
+  height: 40px;
+  width: 170px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.box-1 .btn:hover {
+  background: #000;
+  color: #fff;
+}
+/* CONTENT */
+.content-child {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: black;
+  gap: 2rem;
+  padding: 0 3rem;
+}
+.content {
+  width: 50%;
+  height: 200px;
+  color: #fff;
+  padding: 0 3rem;
+}
+.content h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.content p {
+  line-height: 2.5rem;
+  font-size: 20px;
+}
+.content-image img {
+  width: auto;
+  height: 500px;
+}
+/* CARD-İMAGE */
+.image-inner {
+  background: black;
+  padding: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+.image-inner img:hover {
+  opacity: 0.5;
+}
+
+/* TRANSPARAN */
+.transparan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+}
+.t-content h2 {
+  font-size: 50px;
+  color: #fff;
+}
+/* FOOTER */
+.footer {
+  padding: 3rem 3rem;
+  background: #000;
+}
+
+.footer .inner-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  color: #fff;
+}
+.footer .social_media_icons i {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.footer .social_media_icons i:hover {
+  opacity: 0.5;
+}
+.copy {
+  text-align: center;
+  color: #fff;
+}
